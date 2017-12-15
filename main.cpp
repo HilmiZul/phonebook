@@ -12,6 +12,7 @@ int main(){
   cout<<"Berapa banyak kontak yang di input: ";
   cin>>n;
 
+  // validasi input banyak kontak
   if(n > maks){
     cout<<"Maksimal harus input 7 kontak."<<endl;
     return main();
